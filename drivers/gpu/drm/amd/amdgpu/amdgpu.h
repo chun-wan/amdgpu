@@ -272,6 +272,11 @@ extern int amdgpu_user_queue;
 extern uint amdgpu_hdmi_hpd_debounce_delay_ms;
 extern int amdgpu_ptl;
 extern int amdgpu_gtt_lock_timeout_ms;
+extern int amdgpu_kfd_free_wait_ms;
+extern int amdgpu_kfd_unpin_drain_ms;
+extern int amdgpu_kfd_free_on_pinned;
+extern int amdgpu_pin_orphan_timeout_ms;
+extern int amdgpu_pin_reaper_interval_ms;
 
 #define AMDGPU_VM_MAX_NUM_CTX			4096
 #define AMDGPU_SG_THRESHOLD			(256*1024*1024)
